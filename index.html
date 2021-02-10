@@ -8,27 +8,34 @@
     <title>Librería Crónicas Doradas</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .button{
+            background-color: #f1cd00;
+        }
+        .button:hover{
+            background-color: #e2c102;
+        }
+        .links{
+            color: azure;
+        }
+        .links:hover{
+            color: #b9b8b8;
+        }
+    </style>
   </head>
-  <style>
-      body{
-        background-image: url(img/f7.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-  </style>
   <body>
-    <header class="top-bar">
-      <nav class="top-bar-left">
-        <ul class="menu menus" aria-label="Navegación del Comercio">
-          <li class="menu-text">Crónicas Doradas</li>
+    <header class="top-bar" style="background-color: #0d5210;">
+      <nav class="top-bar-left" style="background-color: #0d5210;">
+        <ul class="menu" style="background-color: #0d5210;" aria-label="Navegación del Comercio">
+          <li class="menu-text" style="color:azure">Crónicas Doradas</li>
         </ul>
       </nav>
-      <nav class="top-bar-right" >
-        <ul class="menu menus" aria-label="Navegación de los productos">
-          <li><a href="">Autores</a></li>
-          <li><a href="">eBooks</a></li>
-          <li><a href="">Recomendados</a></li>
-          <li><a href="">Infantiles</a></li>
+      <nav class="top-bar-right" style="background-color: #0d5210;">
+        <ul class="menu" style="background-color: #0d5210;" aria-label="Navegación de los productos">
+          <li ><a class="links" href="">Autores</a></li>
+          <li><a class="links" href="">eBooks</a></li>
+          <li><a class="links" href="">Recomendados</a></li>
+          <li><a class="links" href="">Infantiles</a></li>
         </ul>
       </nav>
     </header>
@@ -109,7 +116,7 @@
                     <div class="card-section">
 
                         <div class="text-right margin-bottom-1"><strong>L801.48</strong></div>
-                        <div><a href class="button expanded ">Comprar</a></div>
+                        <div><a href class="button expanded " >Comprar</a></div>
                     </div>
                 </div>
             </div>
@@ -122,7 +129,7 @@
             <div class="cell">
                 <div class="card shadow">
                     <img class="card-image" src="img/tiempos-de-misterios.jpg" alt="Portada Libro 'Tiempos de Misterios'"/>
-                    <div class="card-divider">Tiempos de Misterios</div>
+                    <div class="card-divider" style="font-size: 1.2em;">Tiempos de Misterios</div>
                     <div class="card-section">
                         <div class="text-right margin-bottom-1"><strong>L391.29</strong></div>
                         <div><a href class="button expanded ">Comprar</a></div>
@@ -132,7 +139,7 @@
             <div class="cell">
                 <div class="card shadow">
                     <img class="card-image" src="img/el-codigo-da-vinci-portada.jpg" alt="Portada Libro 'El Código Da Vinci'"/>
-                    <div class="card-divider">El Código Da Vinci</div>
+                    <div class="card-divider" style="font-size: 1.37em;">El Código Da Vinci</div>
                     <div class="card-section">
                         <div class="text-right margin-bottom-1"><strong>L551.29</strong></div>
                         <div><a href class="button expanded ">Comprar</a></div>
@@ -142,7 +149,7 @@
             <div class="cell">
                 <div class="card shadow">
                     <img class="card-image" src="img/hp-la-camara-secreta-portada.jpg" alt="Portada Libro 'Harry Potter y La Camara Secreta'"/>
-                    <div class="card-divider">Harry Potter y la Cámara Secreta</div>
+                    <div class="card-divider" style="font-size: 0.95em;">Harry Potter y la Cámara Secreta</div>
                     <div class="card-section">
                         <div class="text-right margin-bottom-1"><strong>L442.20</strong></div>
                         <div><a href class="button expanded ">Comprar</a></div>
@@ -152,7 +159,7 @@
             <div class="cell">
                 <div class="card shadow">
                     <img class="card-image" src="img/narnia.png" alt="Portada Libro 'Las Crónicas de Narnia: El León, la Bruja y el Ropero'"/>
-                    <div class="card-divider">Las Crónicas de Narnia: El León, la Bruja y el Ropero</div>
+                    <div class="card-divider" style="font-size: 0.95em;">Las Crónicas de Narnia: El León, la Bruja y el Ropero</div>
                     <div class="card-section">
                         <div class="text-right margin-bottom-1"><strong>L376.74</strong></div>
                         <div><a href class="button expanded ">Comprar</a></div>
@@ -193,7 +200,7 @@
                 </div>
                 <div class="media-object-section">
                     <strong>La Selección</strong><br/>
-                    <p class="text-justify"> Un cuento de hadas distópico. Una novela encantadora, cautivadora y con la cantidad justa de suspiros por amor!</p>
+                    <p> Un cuento de hadas distópico. Una novela encantadora, cautivadora y con la cantidad justa de suspiros por amor!</p>
                 </div>
             </div>
             <div class="cell media-object">
@@ -228,7 +235,7 @@
                     <img alt="temporada" src="img/hush-hush-portada.jpg" alt="Portada Libro 'Hush Hush'" class="thumbnail" />
                 </div>
                 <div class="media-object-section">
-                    <strong>PHush Hush</strong><br/>
+                    <strong>Hush Hush</strong><br/>
                     <p>Un juramento sagrado. Un ángel caído. Un amor prohibido. No te pierdas la primera parte de esta saga que te encantará...</p>
                 </div>
             </div>
@@ -266,33 +273,6 @@
                 <div class="media-object-section">
                     <strong>Orgullo y Prejuicio</strong><br/>
                     <p>Una joven romántica pero segura, cuya misión no es solamente encontrar al marido perfecto.</p>
-                </div>
-            </div>
-            <div class="cell media-object">
-                <div class="media-object-section">
-                    <img alt="temporada" src="https://placehold.it/100x100" class="thumbnail" />
-                </div>
-                <div class="media-object-section">
-                    <strong>Producto T 1</strong><br/>
-                    <p>Descripción corta de Producto T 1 para algo.</p>
-                </div>
-            </div>
-            <div class="cell media-object">
-                <div class="media-object-section">
-                    <img alt="temporada" src="https://placehold.it/100x100" class="thumbnail" />
-                </div>
-                <div class="media-object-section">
-                    <strong>Producto T 1</strong><br/>
-                    <p>Descripción corta de Producto T 1 para algo.</p>
-                </div>
-            </div>
-            <div class="cell media-object">
-                <div class="media-object-section">
-                    <img alt="temporada" src="https://placehold.it/100x100" class="thumbnail" />
-                </div>
-                <div class="media-object-section">
-                    <strong>Producto T 1</strong><br/>
-                    <p>Descripción corta de Producto T 1 para algo.</p>
                 </div>
             </div>
         </section>
